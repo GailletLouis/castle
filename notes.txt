@@ -1,0 +1,10 @@
+sur le site relais et chateaux : destinations > France
+mode dev sur chrome : ctrl shift I
+la réponse "france" contient tous les noms d'hotel et leur positin géographique >> pas suffisant
+>> Essayer de trouver les 150 urls des hotels 
+
+https://www.relaischateaux.com/fr/france/baumaniere-hotel-spa-les-baux-de-provence
+https://www.relaischateaux.com/fr/france/cordeillan-gironde-pauillac
+
+on peut copy as a fetch la response :
+fetch("https://www.relaischateaux.com/fr/update-destination-results", {"credentials":"include","headers":{"accept":"*/*","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7","content-type":"application/x-www-form-urlencoded; charset=UTF-8","x-requested-with":"XMLHttpRequest"},"referrer":"https://www.relaischateaux.com/fr/destinations/europe/france","referrerPolicy":"origin-when-cross-origin","body":"page=1&areaId=78","method":"POST","mode":"cors"});
