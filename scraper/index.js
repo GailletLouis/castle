@@ -5,11 +5,16 @@ var cheerio = require('cheerio');
 var app = express();
 
 
-app.get('/naive', function(req, res){
+app.get('/scrape', function(req, res){
 
     //url of the website we scrape, on this one we have all the needed urls of each hotel
     url = "https://www.relaischateaux.com/fr/site-map/etablissements";
 
+    //list of the urls we want to get
+    var hotel_url;
+    var name; // name of the hotel 
+    var outputjson = { name, hotel_url };
+    
     request(url, function(error, response, html){
 
         // Handle errors
@@ -17,10 +22,7 @@ app.get('/naive', function(req, res){
             // cheerio lab permits to have jQuery easily on the HTML
             var $ = cheerio.load(html);
             
-            //list of the urls we want to get
-            var hotel_url;
-            var name; // name of the hotel 
-            var json = { name, hotel_url };
+
 
             //filter to France
             $('.France').filter(function(){
@@ -31,7 +33,7 @@ app.get('/naive', function(req, res){
             $('.li').filter(function(){
                 var data = $(this);
                 hotel_url = data.children().first().text();
-                json.hotel_url = hotel_url;
+                outputjson.hotel_url = hotel_url;
             });
         }
 
@@ -42,13 +44,13 @@ app.get('/naive', function(req, res){
     });
 
     //Save the json results in output.json file
-    fs.writeFile('output.json', JSON.stringify(json, null, 4), function(err){
+    fs.writeFile('output.json', JSON.stringify(outputjson, null, 4), function(err){
         console.log('File saved as output.json');
     });
 });
 
 app.listen('8081');
 
-console.log('Test logs');
+console.log('Go to http://localhost:8081/scrape on your browser');
 
 exports = module.exports = app;
