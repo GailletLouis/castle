@@ -14,7 +14,7 @@ app.get('/scrape', function(req, res){
     var hotel_url;
     var name; // name of the hotel 
     var outputjson = { name, hotel_url };
-    
+
     request(url, function(error, response, html){
 
         // Handle errors
@@ -22,18 +22,14 @@ app.get('/scrape', function(req, res){
             // cheerio lab permits to have jQuery easily on the HTML
             var $ = cheerio.load(html);
             
-
+            
+            // I don't know why but filter is not working as expected !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
             //filter to France
-            $('.France').filter(function(){
+            $('h3.France').filter(function(){
                      var data = $(this);
-            });
-            
-            //filter to li section
-            $('.li').filter(function(){
-                var data = $(this);
-                hotel_url = data.children().first().text();
-                outputjson.hotel_url = hotel_url;
+                     hotel_url = data.children().first().children().first().attr('href');
+                     outputjson.hotel_url = hotel_url;
             });
         }
 
