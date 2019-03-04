@@ -1,4 +1,602 @@
-{
-    "name": "\n                                            Yoann Conte – Bord du Lac Hôtel Restaurant\n                                        ",
-    "hotel_url": "https://www.relaischateaux.com/fr/france/yoannconte-haute-savoie-veyrier-du-lac"
-}
+[
+    {
+        "name": "\n                                            Abbaye de la Bussière\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bussiere-cote-d-or-la-bussiere-sur-ouche"
+    },
+    {
+        "name": "\n                                            Anne de Bretagne\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/annedebretagne-loire-atlantique-la-plaine-sur-mer"
+    },
+    {
+        "name": "\n                                            Assiette Champenoise\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/assiette-champenoise-champagne-ardenne-tinqueux"
+    },
+    {
+        "name": "\n                                            Auberge de l’Île Barbe\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/aubergedelile-rhone-lyon"
+    },
+    {
+        "name": "\n                                            Auberge des Glazicks\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/auberge-des-glazicks-plomodiern"
+    },
+    {
+        "name": "\n                                            Auberge des Templiers\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/templiers-loiret-boismorand"
+    },
+    {
+        "name": "\n                                            Auberge du Jeu de Paume\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/jeudepaume-oise-chantilly"
+    },
+    {
+        "name": "\n                                            Au Cœur du Village Hôtel & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/coeurduvillage-rhone-alpes-la-clusaz"
+    },
+    {
+        "name": "\n                                            Au Crocodile\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/crocodile-bas-rhin"
+    },
+    {
+        "name": "\n                                            Baumanière Hôtel & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/baumaniere-hotel-spa-les-baux-de-provence"
+    },
+    {
+        "name": "\n                                            Brittany & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/brittany-finistere-roscoff"
+    },
+    {
+        "name": "\n                                            Cap d’Antibes Beach Hotel\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/antibes-alpes-maritimes-cap-d-antibes"
+    },
+    {
+        "name": "\n                                            Castel Clara Thalasso & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/castelclara-morbihan-bangor"
+    },
+    {
+        "name": "\n                                            Cazaudehore « La Forestière »\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/cazaudehore-yvelines-saint-germain-en-laye"
+    },
+    {
+        "name": "\n                                            Château Cordeillan-Bages\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/cordeillan-gironde-pauillac"
+    },
+    {
+        "name": "\n                                            Château d’Adoménil\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/adomenil-meurthe-et-moselle-luneville"
+    },
+    {
+        "name": "\n                                            Château d’Audrieu\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/audrieu-calvados-audrieu"
+    },
+    {
+        "name": "\n                                            Château de Bagnols\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bagnols-rhone-alpes"
+    },
+    {
+        "name": "\n                                            Château de Berne\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/berne-var-lorgues"
+    },
+    {
+        "name": "\n                                            Château de Codignat\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/codignat-puy-de-dome-bort-l-etang"
+    },
+    {
+        "name": "\n                                            Château de Courcelles\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/courcelles-aisne-courcelles-sur-vesle"
+    },
+    {
+        "name": "\n                                            Château de Curzay\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/curzay-vienne-curzay-sur-vonne"
+    },
+    {
+        "name": "\n                                            Château de Drudas\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chateau-de-drudas"
+    },
+    {
+        "name": "\n                                            Château de Fonscolombe\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/fonscolombe-bouches-du-rhone"
+    },
+    {
+        "name": "\n                                            Château de Germigney\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/germigney-jura-port-lesney"
+    },
+    {
+        "name": "\n                                            Château de La Chèvre d’Or\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chevredor-alpes-maritimes-eze-village"
+    },
+    {
+        "name": "\n                                            Château de la Treyne\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/treyne-lot-lacave"
+    },
+    {
+        "name": "\n                                            Château de Locguénolé\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/locguenole-morbihan-kervignac"
+    },
+    {
+        "name": "\n                                            Château de Mercuès\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/mercues-lot-mercues"
+    },
+    {
+        "name": "\n                                            Château de Mirambeau\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/mirambeau-charente-maritime-mirambeau"
+    },
+    {
+        "name": "\n                                            Château de Montreuil\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/montreuil-pas-de-calais-montreuil"
+    },
+    {
+        "name": "\n                                            Château de Noirieux\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/noirieux-maine-et-loire-briollay"
+    },
+    {
+        "name": "\n                                            Château de Noizay\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/noizay-indre-et-loire-noizay"
+    },
+    {
+        "name": "\n                                            Château de Riell\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/riell-pyrenees-orientales-prades"
+    },
+    {
+        "name": "\n                                            Château de Rochegude\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/rochegude-drome-rochegude"
+    },
+    {
+        "name": "\n                                            Château des Avenières\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/avenieres-haute-savoie-cruseilles"
+    },
+    {
+        "name": "\n                                            Château de Valmer\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chateau-de-valmer-la-croix-valmer"
+    },
+    {
+        "name": "\n                                            Château Lafaurie-Peyraguey Hôtel & Restaurant LALIQUE\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chateau-lafaurie-peyraguey-lalique-bommes"
+    },
+    {
+        "name": "\n                                            Clarance Hôtel\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/clarance-hotel-nord"
+    },
+    {
+        "name": "\n                                            Coquillade Village\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/coquillade-vaucluse-gargas"
+    },
+    {
+        "name": "\n                                            Domaine d’Auriac\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/auriac-aude-carcassonne"
+    },
+    {
+        "name": "\n                                            Domaine de la Bretesche Golf & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bretesche-loire-atlantique-missillac"
+    },
+    {
+        "name": "\n                                            Domaine de Rochevilaine\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/rochevilaine-morbihan-billiers"
+    },
+    {
+        "name": "\n                                            Domaine Les Crayères\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/crayeres-marne-reims"
+    },
+    {
+        "name": "\n                                            Flocons de Sel\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/flocons-haute-savoie-megeve"
+    },
+    {
+        "name": "\n                                            Georges Blanc Parc & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/blanc-ain-vonnas"
+    },
+    {
+        "name": "\n                                            Grand Hôtel de Cala Rossa & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/calarossa-corse-porto-vecchio"
+    },
+    {
+        "name": "\n                                            Grand Hôtel du Lion d’Or\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/liondor-loir-et-cher-romorantin-lanthenay"
+    },
+    {
+        "name": "\n                                            Hameau Albert Ier\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/albert-haute-savoie-chamonix-mont-blanc"
+    },
+    {
+        "name": "\n                                            Hostellerie de Levernois\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/levernois-cote-d-or-levernois-beaune"
+    },
+    {
+        "name": "\n                                            Hostellerie de Plaisance\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/plaisance-gironde-saint-emilion"
+    },
+    {
+        "name": "\n                                            Hostellerie La Briqueterie\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/briqueterie-marne-vinay"
+    },
+    {
+        "name": "\n                                            Hostellerie La Cheneaudière & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/cheneaudiere-bas-rhin-colroy-la-roche"
+    },
+    {
+        "name": "\n                                            Hôtel Crillon le Brave\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/crillonbrave-vaucluse-crillon-le-brave"
+    },
+    {
+        "name": "\n                                            Hôtel Daniel\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/danielparis-paris"
+    },
+    {
+        "name": "\n                                            Hôtel de la Plage\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/laplage-finistere-sainte-anne-la-palud"
+    },
+    {
+        "name": "\n                                            Hôtel du Bois Blanc\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/hotel-du-bois-blanc-ain-vonnas"
+    },
+    {
+        "name": "\n                                            Hôtel et Restaurant Régis et Jacques Marcon\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/cimes-haute-loire-saint-bonnet-le-froid"
+    },
+    {
+        "name": "\n                                            Hotel Ile de la Lagune Thalasso & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/ile-de-la-lagune-saint-cyprien"
+    },
+    {
+        "name": "\n                                            Hôtel Impérial Garoupe\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/garoupe-alpes-maritimes-cap-d-antibes"
+    },
+    {
+        "name": "\n                                            Hôtel Le Chabichou Restaurants & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chabichou-savoie-courchevel-1850"
+    },
+    {
+        "name": "\n                                            Hôtel Les Barmes de l'Ours\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/barmes-de-l-ours-savoie"
+    },
+    {
+        "name": "\n                                            Hôtel Parc Victoria\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/parcvictoria-pyrenees-atlantiques-saint-jean-de-luz"
+    },
+    {
+        "name": "\n                                            Hôtel Restaurant Auberge du Père Bise – Jean Sulpice\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bise-haute-savoie-talloires"
+    },
+    {
+        "name": "\n                                            Hôtel Restaurant Clos des Sens - Laurent PETIT\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/clos-des-sens-haute-savoie"
+    },
+    {
+        "name": "\n                                            Hôtel Restaurant En Marge\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/hotel-restaurant-en-marge-aureville"
+    },
+    {
+        "name": "\n                                            Hotel & Restaurant Thierry Drapeau\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/thierrydrapeau-vendee-saint-sulpice-le-verdon"
+    },
+    {
+        "name": "\n                                            Hôtel & Spa du Castellet\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/castellet-var-le-castellet"
+    },
+    {
+        "name": "\n                                            Hôtel-Spa La Bouitte – Restaurant René et Maxime Meilleur\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/la-bouitte-savoie"
+    },
+    {
+        "name": "\n                                            Hôtel Splendide Royal Paris\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/hotel-splendide-royal-paris"
+    },
+    {
+        "name": "\n                                            Jiva Hill Resort\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/jivahill-ain-crozet"
+    },
+    {
+        "name": "\n                                            La Bastide\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/labastide-gers-barbotan-les-thermes"
+    },
+    {
+        "name": "\n                                            La Bastide de Capelongue\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/capelongue-vaucluse-bonnieux-en-provence"
+    },
+    {
+        "name": "\n                                            La Bastide de Saint-Tropez\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/tropez-var-saint-tropez"
+    },
+    {
+        "name": "\n                                            La Bastide Saint-Antoine\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/saintantoine-alpes-maritimes-grasse"
+    },
+    {
+        "name": "\n                                            La Bonne Étape\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bonneetape-alpes-de-haute-provence-chateau-arnoux"
+    },
+    {
+        "name": "\n                                            La Chapelle Saint-Martin\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chapelle-haute-vienne-nieul"
+    },
+    {
+        "name": "\n                                            La Côte Saint Jacques & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/la-cote-saint-jacques-yonne-joigny"
+    },
+    {
+        "name": "\n                                            La Ferme Saint-Siméon\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/simeon-calvados-honfleur"
+    },
+    {
+        "name": "\n                                            La Grande Maison de Bernard Magrez\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/grande-maison-bernard-magrez-gironde-bordeaux"
+    },
+    {
+        "name": "\n                                            La Grenouillère\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lagrenouillere-pas-de-calais-la-madelaine-sous-montreuil"
+    },
+    {
+        "name": "\n                                            La Maison des Bois – Marc Veyrat\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/marcveyrat-haute-savoie-manigod"
+    },
+    {
+        "name": "\n                                            La Maison d'Uzès\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/maisonduzes-gard-uzes"
+    },
+    {
+        "name": "\n                                            La Pyramide Patrick Henriroux\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/pyramide-isere-vienne"
+    },
+    {
+        "name": "\n                                            La Réserve\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/reservealbi-tarn-albi"
+    },
+    {
+        "name": "\n                                            L’Arnsbourg Restaurant et Hôtel\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/arnsbourg-moselle-baerenthal"
+    },
+    {
+        "name": "\n                                            La Signoria & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/signoria-corse-calvi"
+    },
+    {
+        "name": "\n                                            La Table du 53\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/passage53-paris"
+    },
+    {
+        "name": "\n                                            L'Auberge Basque\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/auberge-basque-saint-pee-sur-nivelle-pyrenees-atlantiques"
+    },
+    {
+        "name": "\n                                            La Villa Archange\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/archange-alpes-maritimes"
+    },
+    {
+        "name": "\n                                            La Villa Calvi\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lavilla-haute-corse-calvi"
+    },
+    {
+        "name": "\n                                            Le Castel Marie-Louise\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/marielouise-loire-atlantique-la-baule"
+    },
+    {
+        "name": "\n                                            Le Chambard\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/le-chambard-haut-rhin-kaysersberg"
+    },
+    {
+        "name": "\n                                            Le Château de Beaulieu\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/chateaubeaulieu-pas-de-calais-busnes"
+    },
+    {
+        "name": "\n                                            Le Clos\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/leclos-normandie-verneuil-sur-avre"
+    },
+    {
+        "name": "\n                                            Le Club de Cavalière & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/cavaliere-var-le-lavandou-cavaliere"
+    },
+    {
+        "name": "\n                                            Le Couvent des Minimes Hôtel & Spa L'Occitane\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/minimes-alpes-de-haute-provence-mane"
+    },
+    {
+        "name": "\n                                            Le Domaine de Verchant\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/verchant-herault-montpellier"
+    },
+    {
+        "name": "\n                                            Le Grand Cœur & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/grandcoeur-savoie-meribel"
+    },
+    {
+        "name": "\n                                            Le Grand Véfour\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/vefour-paris"
+    },
+    {
+        "name": "\n                                            Le Mas de Pierre\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/maspierre-alpes-maritimes-saint-paul-de-vence"
+    },
+    {
+        "name": "\n                                            Le Mas des Herbes Blanches\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/masherbes-vaucluse-joucas"
+    },
+    {
+        "name": "\n                                            Le Petit Nice-Passedat\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/passedat-bouches-du-rhone-marseille"
+    },
+    {
+        "name": "\n                                            Le Phébus & Spa - Villa des Anges\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/phebus-vaucluse-gordes"
+    },
+    {
+        "name": "\n                                            Le Pré Catelan\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/catelan-paris"
+    },
+    {
+        "name": "\n                                            Le Prieuré Baumanière\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/leprieure-gard-villeneuve-lez-avignon"
+    },
+    {
+        "name": "\n                                            Le Relais Bernard Loiseau – Spa Loiseau des Sens\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/loiseau-cote-d-or-saulieu"
+    },
+    {
+        "name": "\n                                            Le Saint-James Bouliac\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/stjames-gironde-bouliac"
+    },
+    {
+        "name": "\n                                            Le Saint-Paul\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/stpaul-alpes-maritimes-saint-paul-de-vence"
+    },
+    {
+        "name": "\n                                            Les Bas Rupts\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/basrupts-vosges-gerardmer"
+    },
+    {
+        "name": "\n                                            Les Bergeries de Palombaggia\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/palombaggia-corse-du-sud-porto-vecchio"
+    },
+    {
+        "name": "\n                                            Les Hautes Roches\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/hautesroches-indre-et-loire-rochecorbon"
+    },
+    {
+        "name": "\n                                            Les Hauts de Loire\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/hauts-loire-loir-et-cher-onzain"
+    },
+    {
+        "name": "\n                                            Les Maisons de Bricourt\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bricourt-ille-et-vilaine-saint-meloir-des-ondes"
+    },
+    {
+        "name": "\n                                            Les Prés d’Eugénie - Maison Guérard\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/guerard-landes-eugenie-les-bains"
+    },
+    {
+        "name": "\n                                            Le Suquet, Sébastien Bras\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/bras-aveyron-laguiole"
+    },
+    {
+        "name": "\n                                            Le Taillevent\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/taillevent-paris"
+    },
+    {
+        "name": "\n                                            Le Vieux Logis\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/vieuxlogis-dordogne-tremolat"
+    },
+    {
+        "name": "\n                                            L’Hôtel de Toiras & Villa Clarisse\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/toiras-charente-maritime-saint-martin-de-re"
+    },
+    {
+        "name": "\n                                            L’Oasis\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/oasis-alpes-maritimes-la-napoule"
+    },
+    {
+        "name": "\n                                            Lucas Carton\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lucascarton-ile-de-france-paris"
+    },
+    {
+        "name": "\n                                            Maison Decoret\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/decoret-allier-vichy"
+    },
+    {
+        "name": "\n                                            Maison Doucet\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/hotel-laposte-doucet-saone-et-loire"
+    },
+    {
+        "name": "\n                                            Maison Lameloise\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lameloise-saone-et-loire-chagny"
+    },
+    {
+        "name": "\n                                            Maison Pic\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/pic-drome-valence"
+    },
+    {
+        "name": "\n                                            Maison Rostang\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/rostang-paris"
+    },
+    {
+        "name": "\n                                            Manoir de Lan-Kerellec\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lankerellec-cotes-d-armor-trebeurden"
+    },
+    {
+        "name": "\n                                            Marquis Faubourg Saint-Honoré\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/marquis-faubourg-saint-honore-ile-de-france-paris"
+    },
+    {
+        "name": "\n                                            Michel Trama\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/aubergade-lot-et-garonne-puymirol"
+    },
+    {
+        "name": "\n                                            Monte-Carlo Beach\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/montecarlo-alpes-maritimes-roquebrune-cap-martin"
+    },
+    {
+        "name": "\n                                            Moulin de l’Abbaye\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/moulin-dordogne-brantome-en-perigord"
+    },
+    {
+        "name": "\n                                            Pan Deï Palais\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/pandei-var-saint-tropez"
+    },
+    {
+        "name": "\n                                            Pierre Gagnaire\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/gagnaire-paris"
+    },
+    {
+        "name": "\n                                            Relais de la Poste\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/poste-landes-magescq"
+    },
+    {
+        "name": "\n                                            Restaurant Alexandre\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/alexandre-gard-garons"
+    },
+    {
+        "name": "\n                                            Restaurant Christopher Coutanceau\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/coutanceau-charente-maritime-la-rochelle"
+    },
+    {
+        "name": "\n                                            Restaurant Gill\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/gill-seine-maritime-rouen"
+    },
+    {
+        "name": "\n                                            Restaurant Greuze\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/restaurant-greuze-tournus"
+    },
+    {
+        "name": "\n                                            Restaurant Guy Lassausaie\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lassausaie-rhone-alpes-chasselay"
+    },
+    {
+        "name": "\n                                            Restaurant Mirazur\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/mirazur-alpes-maritimes-menton"
+    },
+    {
+        "name": "\n                                            Restaurant Pierre Orsi\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/orsi-rhone-lyon"
+    },
+    {
+        "name": "\n                                            Restaurant Serge Vieira\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/vieira-cantal"
+    },
+    {
+        "name": "\n                                            Royal Champagne Hotel & Spa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/royalchampagne-marne-champillon"
+    },
+    {
+        "name": "\n                                            Saint James Paris\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/saintjames-paris-ile-de-france-paris"
+    },
+    {
+        "name": "\n                                            Tiara Yaktsa\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/yaktsa-alpes-maritimes-theoule-sur-mer"
+    },
+    {
+        "name": "\n                                            Troisgros\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/troisgros-loire-ouches"
+    },
+    {
+        "name": "\n                                            Villa Florentine\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/florentine-rhone-lyon"
+    },
+    {
+        "name": "\n                                            Villa Gallici\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/gallici-bouches-du-rhone-aix-en-provence"
+    },
+    {
+        "name": "\n                                            Villa René Lalique\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/lalique-bas-rhin"
+    },
+    {
+        "name": "\n                                            Yoann Conte – Bord du Lac Hôtel Restaurant\n                                        ",
+        "url": "https://www.relaischateaux.com/fr/france/yoannconte-haute-savoie-veyrier-du-lac"
+    }
+]

@@ -13,6 +13,7 @@ app.get('/scrape', function(req, res){
     //list of the urls we want to get
     var hotel_url;
     var name; // name of the hotel 
+    var outputarray = [];
     var outputjson = { name:"", hotel_url:"" };
 
     request(url, function(error, response, html){
@@ -22,9 +23,6 @@ app.get('/scrape', function(req, res){
             // cheerio lab permits to have jQuery easily on the HTML
             var $ = cheerio.load(html);
             
-            
-            // I don't know why but filter is not working as expected !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
             //filter to France        
             var data = $('#countryF').eq(1).find('li');
 
@@ -36,9 +34,8 @@ app.get('/scrape', function(req, res){
 
                 name = $(element).find('a').eq(0).text();
                 console.log(name);
-
-                outputjson.hotel_url = hotel_url;
-                outputjson.name = name;
+                
+                outputarray.push({name: name, url:hotel_url});
             });
         }
 
@@ -47,8 +44,8 @@ app.get('/scrape', function(req, res){
             console.log('error when requesting website');
         }
 
-        //Save the json results in output.json file
-        fs.writeFile('output.json', JSON.stringify(outputjson, null, 4), function(err){
+        //Save the results (array) into output.json file
+        fs.writeFile('output.json', JSON.stringify(outputarray, null, 4), function(err){
             console.log('File saved as output.json');
         });
     });
