@@ -13,7 +13,7 @@ app.get('/scrape', function(req, res){
     //list of the urls we want to get
     var hotel_url;
     var name; // name of the hotel 
-    var outputjson = { name, hotel_url };
+    var outputjson = { name:"", hotel_url:"" };
 
     request(url, function(error, response, html){
 
@@ -36,27 +36,27 @@ app.get('/scrape', function(req, res){
 
                 name = $(element).find('a').eq(0).text();
                 console.log(name);
+
+                outputjson.hotel_url = hotel_url;
+                outputjson.name = name;
             });
-
-            //outputjson.hotel_url = hotel_url;
-
-
         }
 
         //if there is an error
         else{
             console.log('error when requesting website');
         }
-    });
 
-    //Save the json results in output.json file
-    fs.writeFile('output.json', JSON.stringify(outputjson, null, 4), function(err){
-        console.log('File saved as output.json');
+        //Save the json results in output.json file
+        fs.writeFile('output.json', JSON.stringify(outputjson, null, 4), function(err){
+            console.log('File saved as output.json');
+        });
     });
 });
 
 app.listen('8081');
 
 console.log('Go to http://localhost:8081/scrape on your browser');
+console.log('a Json file named output.json should appear')
 
 exports = module.exports = app;
