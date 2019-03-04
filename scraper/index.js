@@ -33,6 +33,9 @@ app.get('/scrape', function(req, res){
             //filter to get URL
                 hotel_url = $(element).find('a').eq(0).attr('href');
                 console.log(hotel_url);
+
+                name = $(element).find('a').eq(0).text();
+                console.log(name);
             });
 
             //outputjson.hotel_url = hotel_url;
