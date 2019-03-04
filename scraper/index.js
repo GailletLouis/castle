@@ -25,12 +25,19 @@ app.get('/scrape', function(req, res){
             
             // I don't know why but filter is not working as expected !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-            //filter to France
-            $('h3.France').filter(function(){
-                     var data = $(this);
-                     hotel_url = data.children().first().children().first().attr('href');
-                     outputjson.hotel_url = hotel_url;
+            //filter to France        
+            var data = $('#countryF').eq(1).find('li');
+
+            data.each((i, element) =>
+            {
+            //filter to get URL
+                hotel_url = $(element).find('a').eq(0).attr('href');
+                console.log(hotel_url);
             });
+
+            //outputjson.hotel_url = hotel_url;
+
+
         }
 
         //if there is an error
