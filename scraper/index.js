@@ -32,7 +32,8 @@ app.get('/scrape', function(req, res){
                 hotel_url = $(element).find('a').eq(0).attr('href');
                 console.log(hotel_url);
 
-                name = $(element).find('a').eq(0).text();
+                name = $(element).find('a').eq(0).text().substring(45);
+                name = name.substring(0,name.length-41);
                 console.log(name);
                 
                 outputarray.push({name: name, url:hotel_url});
